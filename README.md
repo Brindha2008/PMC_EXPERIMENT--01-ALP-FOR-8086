@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-## Name :
-## Roll no :
-## Date of experiment :
+## Name :BRINDHA A R
+## Roll no :212225040050
+## Date of experiment :20/11/2026
 
 
 
@@ -76,28 +76,80 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 ## Programs for arithmetic  operations (16 bit)
+```
 
+Mov AL,74H
+MOV BL,69H
+ADD AL,BL
+HLT
+
+Mov AL,74H
+MOV BL,69H
+SUB AL,BL
+HLT
+
+org 100h
+Mov AL,74H
+MOV BL,69H
+MUL BL
+HLT
+ret
+
+MOV AL,68H
+MOV BL,18H
+DIV BL
+HLT
+
+```
 
 
 ## Output  
 
+<img width="1917" height="1078" alt="Screenshot 2026-10-30 183806" src="https://github.com/user-attachments/assets/df0e657a-a9ac-41cd-b8b4-e99ff7d40690" />
 
+<img width="1917" height="1078" alt="Screenshot 2026-10-30 183834" src="https://github.com/user-attachments/assets/16915f2f-7b0f-4e0d-b177-f96c407fed4f" />
 
+<img width="1917" height="1078" alt="Screenshot 2026-10-30 183901" src="https://github.com/user-attachments/assets/35eee0df-715d-4fd8-a3e4-dda42ea8dee0" />
+
+<img width="1917" height="1078" alt="Screenshot 2026-10-30 183926" src="https://github.com/user-attachments/assets/df92f5c4-5e31-47eb-9bc9-21c4f7a84394" />
 
 
 ## Programs for logical  operations (16 bit)
 
+```
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
 
+MOV AL,45H
+MOV BL,66H
+OR AL,BL
+HLT
 
+MOV AL,65H
+NOT AL
+HLT
+
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+```
 ## Output  
 
+<img width="1917" height="1077" alt="Screenshot 2026-10-30 183951" src="https://github.com/user-attachments/assets/f085d884-0e6c-4c89-a7b1-e63c225a2e91" />
+
+<img width="1917" height="1078" alt="Screenshot 2026-10-30 184012" src="https://github.com/user-attachments/assets/8ffd7986-3106-423c-ad66-cd1b8f52617a" />
+
+<img width="1917" height="1078" alt="Screenshot 2026-10-30 184035" src="https://github.com/user-attachments/assets/7f57200a-ad62-44d9-9a52-9aea7b6247d4" />
 
 
 
 ## Result :
  
 
-
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
 
 
 
